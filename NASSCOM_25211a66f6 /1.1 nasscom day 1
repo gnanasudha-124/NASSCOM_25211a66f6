@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN8LfitnUpUzitC7huZpjtc",
+      "authorship_tag": "ABX9TyPy4z3VYkMMBeycb8TH/yki",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,12 +28,31 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 1,
       "metadata": {
-        "id": "GeCE1bpcs4dO"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GeCE1bpcs4dO",
+        "outputId": "1fa68e8c-cdee-4d14-f215-9fe83d08dd92"
       },
-      "outputs": [],
-      "source": []
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, Python!\n",
+            "This is indented correctly.\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello, Python!\")\n",
+        "if True:\n",
+        "    print(\"This is indented correctly.\")\n",
+        "else:\n",
+        "    print(\"This won't run.\")"
+      ]
     }
   ]
 }
